@@ -1,6 +1,6 @@
 # cepsearch
 
-projeto para prog. web
+project for web programming class.
 
 ## Getting Started
 
