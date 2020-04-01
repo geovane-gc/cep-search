@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import 'dart:async';
 import 'dart:convert';
 
-var request = "https://viacep.com.br/ws/${cepAPI}/json/";
+var request = "https://viacep.com.br/ws/${88704761}/json/";
 
 void main() async {
   runApp(MaterialApp(
@@ -158,11 +158,6 @@ class _HomeState extends State<Home> {
 
   _textFormField(String _labelText, TextEditingController _controller, String _msgValidator) {
     return TextFormField(
-      onChanged: (value){
-        setState(() {
-          this.cepAPI = value;
-        });
-      },
         keyboardType: TextInputType.number,
         decoration: InputDecoration(
             labelText: _labelText.toString(),
